@@ -1,0 +1,6 @@
+.DS_Store
+/public/
+/go.sum
+/go.mod
+*.go
+/Makefile
