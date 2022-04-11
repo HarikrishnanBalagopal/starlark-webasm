@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm index.js index.js.map main.*.wasm",
-    "build": "parcel build src/index.js"
+    "build": "rollup --config"
   },
   "keywords": [
     "starlark",
@@ -26,6 +26,7 @@
     "url": "https://github.com/HarikrishnanBalagopal/starlark-webasm.git"
   },
   "devDependencies": {
-    "parcel": "^2.4.1"
+    "@rollup/plugin-wasm": "^5.1.2",
+    "rollup": "^2.70.1"
   }
 }
