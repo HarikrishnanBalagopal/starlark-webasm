@@ -1,5 +1,3 @@
-var $ltMAx$fs = require("fs");
-
 var $parcel$global =
 typeof globalThis !== 'undefined'
   ? globalThis
@@ -71,7 +69,7 @@ var $a1KGq = parcelRequire("a1KGq");
     else throw new Error("cannot export Go (neither global, window nor self is defined)");
     if (!$parcel$global.require && true) $parcel$global.require = undefined;
     if (!$parcel$global.fs && $parcel$global.require) {
-        const fs = $ltMAx$fs;
+        const fs = (parcelRequire("a1KGq"));
         if (typeof fs === "object" && fs !== null && Object.keys(fs).length !== 0) $parcel$global.fs = fs;
     }
     const enosys = ()=>{
