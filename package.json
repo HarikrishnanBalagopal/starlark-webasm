@@ -4,13 +4,26 @@
   "description": "A webassembly module that includes a starlark interpreter.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf dist/ && parcel build src/index.js"
   },
-  "keywords": ["starlark", "webassembly", "wasm"],
+  "keywords": [
+    "starlark",
+    "webassembly",
+    "wasm"
+  ],
+  "alias": {
+    "process": false,
+    "crypto": false,
+    "util": false,
+    "os": false
+  },
   "author": "Harikrishnan Balagopal",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/HarikrishnanBalagopal/starlark-webasm.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1"
   }
 }
