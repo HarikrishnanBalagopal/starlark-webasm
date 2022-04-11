@@ -1,6 +1,6 @@
 {
   "name": "starlark-webasm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A webassembly module that includes a starlark interpreter.",
   "main": "index.js",
   "scripts": {
