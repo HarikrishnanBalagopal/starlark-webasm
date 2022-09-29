@@ -26,6 +26,8 @@ main();
 
 ## Overview
 
+NPM package <a target="_blank" href="https://www.npmjs.com/package/starlark-webasm">https://www.npmjs.com/package/starlark-webasm</a>
+
 See it running at <a target="_blank" href="https://haribala.dev/starlark-webasm-demo">https://haribala.dev/starlark-webasm-demo</a>
 
 This library adds a function called `run_starlark_code` to the `window` object (globals).
