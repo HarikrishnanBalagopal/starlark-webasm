@@ -26,6 +26,8 @@ main();
 
 ## Overview
 
+See it running at <a target="_blank" href="https://haribala.dev/starlark-webasm-demo">https://haribala.dev/starlark-webasm-demo</a>
+
 This library adds a function called `run_starlark_code` to the `window` object (globals).
 
 Starlark is a Python-like language.  
